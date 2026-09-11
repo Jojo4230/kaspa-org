@@ -29,6 +29,66 @@ function defineWallet<const Id extends string>(
 
 const walletRecords = [
   defineWallet({
+    id: "ledger",
+    title: "Ledger",
+    icon: "/hodl/wallets/ledger/icon.svg",
+    user: "beginner",
+    summary:
+      "Hardware wallets for securing Kaspa keys and approving transactions, with Ledger Wallet for desktop and mobile.",
+    paths: [
+      { platforms: ["hardware", "windows"] },
+      { platforms: ["hardware", "mac"] },
+      { platforms: ["hardware", "linux"] },
+      { platforms: ["hardware", "ios"] },
+      { platforms: ["hardware", "android"] },
+    ],
+    features: ["hardware_wallet"],
+    check: {
+      control: "good",
+      validation: "caution",
+      transparency: "acceptable",
+      fees: "good",
+    },
+    platformOverrides: {
+      hardware: {
+        check: {
+          validation: "not_applicable",
+          transparency: "caution",
+        },
+      },
+    },
+    actions: [
+      {
+        action: "open",
+        link: "https://www.ledger.com/coin/wallet/kaspa",
+      },
+      {
+        action: "download",
+        link: "https://www.ledger.com/ledger-live/download",
+      },
+      {
+        action: "app_store",
+        link: "https://apps.apple.com/app/ledger-live-app-crypto-nft/id1361671700",
+        platforms: ["ios"],
+      },
+      {
+        action: "google_play",
+        link: "https://play.google.com/store/apps/details?id=com.ledger.live",
+        platforms: ["android"],
+      },
+      {
+        action: "view_source",
+        link: "https://github.com/LedgerHQ/ledger-live",
+        platforms: ["windows", "mac", "linux", "ios", "android"],
+      },
+      {
+        action: "view_source",
+        link: "https://github.com/LedgerHQ/app-kaspa",
+        platforms: ["hardware"],
+      },
+    ],
+  }),
+  defineWallet({
     id: "kaspa-cli-wallet",
     title: "CLI Wallet",
     icon: "/hodl/wallets/kaspa-cli-wallet/icon.png",
