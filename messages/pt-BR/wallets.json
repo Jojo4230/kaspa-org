@@ -5,5 +5,6 @@
   "kastle": "Carteira Kaspa de autocustódia para KAS, KRC-20, KNS e NFTs, com ponte para L2 e swaps no aplicativo. Disponível para dispositivos móveis e como extensão de navegador.",
   "kng-desktop": "Uma carteira Kaspa moderna para desktop, com interface amigável por padrão, operação opcional como nó completo e configuração avançada.",
   "kng-web": "A versão para navegador da Kaspa NG. Amigável por padrão, sem instalação e com configuração avançada opcional.",
+  "ledger": "Carteiras de hardware para Kaspa com o aplicativo Ledger Wallet. A compatibilidade com celulares e computadores varia conforme o modelo de hardware.",
   "tangem-wallet": "A Tangem Wallet é uma carteira de hardware segura e de autocustódia para Kaspa e mais de 14.000 ativos digitais. Não exige frase-semente."
 }
