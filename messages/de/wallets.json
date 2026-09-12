@@ -5,5 +5,6 @@
   "kastle": "Eine selbstverwahrte Kaspa-Wallet für KAS, KRC-20, KNS und NFTs mit L2-Bridging und In-App-Tausch. Als mobile App und Browser-Erweiterung verfügbar.",
   "kng-desktop": "Eine moderne Kaspa-Desktop-Wallet mit benutzerfreundlicher Standardoberfläche, optionalem Full-Node-Betrieb und umfangreicher Konfiguration für fortgeschrittene Nutzer.",
   "kng-web": "Die browserbasierte Version von Kaspa NG. Standardmäßig benutzerfreundlich, ohne Installation und mit optionaler erweiterter Konfiguration.",
+  "ledger": "Hardware-Wallets für Kaspa mit der Ledger Wallet App. Die Kompatibilität mit Smartphones und Computern hängt vom Hardware-Modell ab.",
   "tangem-wallet": "Tangem Wallet ist eine sichere selbstverwahrte Hardware-Wallet für Kaspa und mehr als 14.000 digitale Vermögenswerte. Keine Seed-Phrase erforderlich."
 }

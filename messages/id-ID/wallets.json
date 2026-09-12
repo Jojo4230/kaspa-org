@@ -5,5 +5,6 @@
   "kng-web": "Versi Kaspa NG berbasis peramban dengan antarmuka bawaan yang ramah, tanpa perlu instalasi, serta konfigurasi lanjutan opsional.",
   "kaspacom-wallet": "Dompet KaspaCom nonkustodial berbasis peramban untuk membuat, mengimpor, dan menggunakan dompet Kaspa.",
   "kaspium": "Dompet seluler nonkustodial untuk mengirim, menerima, dan menyimpan KAS.",
+  "ledger": "Dompet perangkat keras untuk Kaspa dengan aplikasi Ledger Wallet. Kompatibilitas ponsel dan komputer bergantung pada model perangkat keras.",
   "tangem-wallet": "Tangem Wallet adalah dompet perangkat keras nonkustodial yang aman untuk Kaspa dan lebih dari 14.000 aset digital. Tidak memerlukan frasa pemulihan."
 }
