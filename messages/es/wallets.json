@@ -11,6 +11,9 @@
   "kastle": {
     "summary": "Billetera Kaspa de autocustodia para KAS, KRC-20, KNS y NFT, con puentes L2 e intercambios integrados. Disponible para móviles y como extensión de navegador."
   },
+  "kasware": {
+    "summary": "Una billetera Kaspa de autocustodia para KAS y activos de Kaspa, disponible como extensión de navegador y aplicación para Android."
+  },
   "kng-desktop": {
     "summary": "Una billetera de escritorio moderna de Kaspa con una interfaz predeterminada fácil de usar, funcionamiento opcional como nodo completo y configuración avanzada."
   },

@@ -29,6 +29,48 @@ function defineWallet<const Id extends string>(
 
 const walletRecords = [
   defineWallet({
+    id: "kasware",
+    title: "KasWare Wallet",
+    icon: "/hodl/wallets/kasware/icon.svg",
+    user: "beginner",
+    summary:
+      "A self-custodial Kaspa wallet for KAS and Kaspa assets, available as a browser extension and Android app.",
+    platforms: ["windows", "mac", "linux", "android"],
+    features: [],
+    check: {
+      control: "good",
+      validation: "acceptable",
+      transparency: "acceptable",
+      fees: "good",
+    },
+    platformOverrides: {
+      android: {
+        check: {
+          validation: "caution",
+          transparency: "caution",
+          fees: "caution",
+        },
+      },
+    },
+    actions: [
+      {
+        action: "download",
+        link: "https://chromewebstore.google.com/detail/kasware-wallet/hklhheigdmpoolooomdihmhlpjjdbklf",
+        platforms: ["windows", "mac", "linux"],
+      },
+      {
+        action: "download",
+        link: "https://github.com/kasware-wallet/kasware-app/releases",
+        platforms: ["android"],
+      },
+      {
+        action: "view_source",
+        link: "https://github.com/kasware-wallet/extension",
+        platforms: ["windows", "mac", "linux"],
+      },
+    ],
+  }),
+  defineWallet({
     id: "ledger",
     title: "Ledger",
     icon: "/hodl/wallets/ledger/icon.svg",

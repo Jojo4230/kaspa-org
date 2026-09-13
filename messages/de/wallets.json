@@ -11,6 +11,9 @@
   "kastle": {
     "summary": "Eine selbstverwahrte Kaspa-Wallet für KAS, KRC-20, KNS und NFTs mit L2-Bridging und In-App-Tausch. Als mobile App und Browser-Erweiterung verfügbar."
   },
+  "kasware": {
+    "summary": "Eine selbstverwahrte Kaspa-Wallet für KAS und Kaspa-Assets, verfügbar als Browser-Erweiterung und Android-App."
+  },
   "kng-desktop": {
     "summary": "Eine moderne Kaspa-Desktop-Wallet mit benutzerfreundlicher Standardoberfläche, optionalem Full-Node-Betrieb und umfangreicher Konfiguration für fortgeschrittene Nutzer."
   },

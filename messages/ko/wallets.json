@@ -11,6 +11,9 @@
   "kastle": {
     "summary": "KAS, KRC-20, KNS, NFT를 지원하며 L2 브리지와 앱 내 스왑 기능을 제공하는 자기 보관형 Kaspa 지갑입니다. 모바일 앱과 브라우저 확장 프로그램으로 이용할 수 있습니다."
   },
+  "kasware": {
+    "summary": "KAS 및 Kaspa 자산을 위한 자기 보관형 Kaspa 지갑입니다. 브라우저 확장 프로그램과 Android 앱으로 이용할 수 있습니다."
+  },
   "kng-desktop": {
     "summary": "사용하기 편한 기본 UI, 선택 가능한 풀 노드 운영, 고급 사용자를 위한 세부 설정 기능을 갖춘 현대적인 Kaspa 데스크톱 지갑입니다."
   },

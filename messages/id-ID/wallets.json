@@ -5,6 +5,9 @@
   "kastle": {
     "summary": "Dompet Kaspa nonkustodial untuk KAS, KRC-20, KNS, dan NFT, dengan bridging L2 dan swap dalam aplikasi. Tersedia sebagai aplikasi seluler dan ekstensi peramban."
   },
+  "kasware": {
+    "summary": "Dompet Kaspa dengan kendali kunci di tangan pengguna untuk KAS dan aset Kaspa, tersedia sebagai ekstensi browser dan aplikasi Android."
+  },
   "kng-desktop": {
     "summary": "Dompet desktop Kaspa modern dengan antarmuka bawaan yang ramah, opsi untuk menjalankan node penuh, dan konfigurasi mendalam bagi penggunaan tingkat lanjut."
   },
