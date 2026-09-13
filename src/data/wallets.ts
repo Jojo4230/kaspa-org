@@ -33,8 +33,11 @@ const walletRecords = [
     title: "OneKey",
     icon: "/hodl/wallets/onekey/icon.svg",
     user: "beginner",
-    summary:
-      "Hardware wallets for Kaspa with the OneKey App. Phone and computer compatibility varies by hardware model.",
+    summary: "Hardware wallets for Kaspa with the OneKey App.",
+    compatibility: {
+      note: "Phone and computer compatibility varies by hardware model.",
+      link: "https://help.onekey.so/en/articles/11461092-get-started-with-onekey-classic-1s",
+    },
     paths: [
       { platforms: ["hardware", "windows"] },
       { platforms: ["hardware", "mac"] },
@@ -94,12 +97,57 @@ const walletRecords = [
     ],
   }),
   defineWallet({
+    id: "kasware",
+    title: "KasWare Wallet",
+    icon: "/hodl/wallets/kasware/icon.svg",
+    user: "beginner",
+    summary:
+      "A self-custodial Kaspa wallet for KAS and Kaspa assets, available as a browser extension and Android app.",
+    platforms: ["windows", "mac", "linux", "android"],
+    features: [],
+    check: {
+      control: "good",
+      validation: "acceptable",
+      transparency: "acceptable",
+      fees: "good",
+    },
+    platformOverrides: {
+      android: {
+        check: {
+          validation: "caution",
+          transparency: "caution",
+          fees: "caution",
+        },
+      },
+    },
+    actions: [
+      {
+        action: "download",
+        link: "https://chromewebstore.google.com/detail/kasware-wallet/hklhheigdmpoolooomdihmhlpjjdbklf",
+        platforms: ["windows", "mac", "linux"],
+      },
+      {
+        action: "download",
+        link: "https://github.com/kasware-wallet/kasware-app/releases",
+        platforms: ["android"],
+      },
+      {
+        action: "view_source",
+        link: "https://github.com/kasware-wallet/extension",
+        platforms: ["windows", "mac", "linux"],
+      },
+    ],
+  }),
+  defineWallet({
     id: "ledger",
     title: "Ledger",
     icon: "/hodl/wallets/ledger/icon.svg",
     user: "beginner",
-    summary:
-      "Hardware wallets for Kaspa with the Ledger Wallet app. Phone and computer compatibility varies by hardware model.",
+    summary: "Hardware wallets for Kaspa with the Ledger Wallet app.",
+    compatibility: {
+      note: "Phone and computer compatibility varies by hardware model.",
+      link: "https://shop.ledger.com/pages/hardware-wallets-comparison",
+    },
     paths: [
       { platforms: ["hardware", "windows"] },
       { platforms: ["hardware", "mac"] },
@@ -125,7 +173,7 @@ const walletRecords = [
     actions: [
       {
         action: "open",
-        link: "https://shop.ledger.com/pages/hardware-wallets-comparison",
+        link: "https://www.ledger.com/coin/wallet/kaspa",
       },
       {
         action: "download",
