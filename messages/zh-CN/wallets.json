@@ -11,6 +11,9 @@
   "kastle": {
     "summary": "支持 KAS、KRC-20、KNS 和 NFT 的 Kaspa 自托管钱包，提供 L2 桥接和应用内兑换功能。支持移动端和浏览器扩展。"
   },
+  "kasware": {
+    "summary": "一款用于管理 KAS 和 Kaspa 资产的自托管 Kaspa 钱包，提供浏览器扩展和 Android 应用。"
+  },
   "kng-desktop": {
     "summary": "一款现代化的 Kaspa 桌面钱包，默认界面友好，可选择运行完整节点，并为高级用户提供深入的配置选项。"
   },

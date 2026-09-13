@@ -11,6 +11,9 @@
   "kastle": {
     "summary": "Carteira Kaspa de autocustódia para KAS, KRC-20, KNS e NFTs, com ponte para L2 e swaps no aplicativo. Disponível para dispositivos móveis e como extensão de navegador."
   },
+  "kasware": {
+    "summary": "Uma carteira Kaspa de autocustódia para KAS e ativos Kaspa, disponível como extensão de navegador e aplicativo Android."
+  },
   "kng-desktop": {
     "summary": "Uma carteira Kaspa moderna para desktop, com interface amigável por padrão, operação opcional como nó completo e configuração avançada."
   },

@@ -11,6 +11,9 @@
   "kastle": {
     "summary": "Un portefeuille Kaspa en autocustodie pour les KAS, KRC-20, KNS et NFT, avec un pont L2 et des échanges intégrés à l’application. Disponible sur mobile et sous forme d’extension de navigateur."
   },
+  "kasware": {
+    "summary": "Un portefeuille Kaspa en autogarde pour KAS et les actifs Kaspa, disponible en extension de navigateur et en application Android."
+  },
   "kng-desktop": {
     "summary": "Un portefeuille Kaspa moderne pour ordinateur, avec une interface conviviale par défaut, l’utilisation facultative d’un nœud complet et des réglages avancés."
   },
