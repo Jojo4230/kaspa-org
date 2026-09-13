@@ -24,6 +24,10 @@
     "summary": "Billeteras de hardware para Kaspa con la aplicación Ledger Wallet.",
     "compatibilityNote": "La compatibilidad con teléfonos y ordenadores varía según el modelo de hardware."
   },
+  "onekey": {
+    "summary": "Billeteras de hardware para Kaspa con la aplicación OneKey.",
+    "compatibilityNote": "La compatibilidad con teléfonos y ordenadores varía según el modelo de hardware."
+  },
   "tangem-wallet": {
     "summary": "Tangem Wallet es una billetera de hardware de autocustodia segura para Kaspa y más de 14 000 activos digitales. Sin frases semilla."
   }

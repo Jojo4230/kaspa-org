@@ -24,6 +24,10 @@
     "summary": "Portefeuilles matériels pour Kaspa avec l’application Ledger Wallet.",
     "compatibilityNote": "La compatibilité avec les téléphones et ordinateurs varie selon le modèle matériel."
   },
+  "onekey": {
+    "summary": "Portefeuilles matériels pour Kaspa avec l’application OneKey.",
+    "compatibilityNote": "La compatibilité avec les téléphones et ordinateurs varie selon le modèle matériel."
+  },
   "tangem-wallet": {
     "summary": "Tangem Wallet est un portefeuille matériel sécurisé en autocustodie pour Kaspa et plus de 14 000 actifs numériques. Aucune phrase de récupération requise."
   }

@@ -24,6 +24,10 @@
     "summary": "Carteiras de hardware para Kaspa com o aplicativo Ledger Wallet.",
     "compatibilityNote": "A compatibilidade com celulares e computadores varia conforme o modelo de hardware."
   },
+  "onekey": {
+    "summary": "Carteiras de hardware para Kaspa com o aplicativo OneKey.",
+    "compatibilityNote": "A compatibilidade com celulares e computadores varia conforme o modelo de hardware."
+  },
   "tangem-wallet": {
     "summary": "A Tangem Wallet é uma carteira de hardware segura e de autocustódia para Kaspa e mais de 14.000 ativos digitais. Não exige frase-semente."
   }

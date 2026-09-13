@@ -24,6 +24,10 @@
     "summary": "搭配 Ledger Wallet 应用使用的 Kaspa 硬件钱包。",
     "compatibilityNote": "支持的手机和电脑因硬件型号而异。"
   },
+  "onekey": {
+    "summary": "搭配 OneKey 应用使用的 Kaspa 硬件钱包。",
+    "compatibilityNote": "支持的手机和电脑因硬件型号而异。"
+  },
   "tangem-wallet": {
     "summary": "Tangem Wallet 是一款支持 Kaspa 和 14,000 多种数字资产的安全自托管硬件钱包，无需助记词。"
   }

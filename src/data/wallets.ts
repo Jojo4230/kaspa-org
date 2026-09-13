@@ -29,6 +29,74 @@ function defineWallet<const Id extends string>(
 
 const walletRecords = [
   defineWallet({
+    id: "onekey",
+    title: "OneKey",
+    icon: "/hodl/wallets/onekey/icon.svg",
+    user: "beginner",
+    summary: "Hardware wallets for Kaspa with the OneKey App.",
+    compatibility: {
+      note: "Phone and computer compatibility varies by hardware model.",
+      link: "https://help.onekey.so/en/articles/11461092-get-started-with-onekey-classic-1s",
+    },
+    paths: [
+      { platforms: ["hardware", "windows"] },
+      { platforms: ["hardware", "mac"] },
+      { platforms: ["hardware", "linux"] },
+      { platforms: ["hardware", "ios"] },
+      { platforms: ["hardware", "android"] },
+    ],
+    features: ["hardware_wallet"],
+    check: {
+      control: "good",
+      validation: "acceptable",
+      transparency: "caution",
+      fees: "good",
+    },
+    platformOverrides: {
+      hardware: {
+        check: {
+          validation: "not_applicable",
+          transparency: "acceptable",
+        },
+      },
+    },
+    actions: [
+      {
+        action: "open",
+        link: "https://onekey.so/",
+      },
+      {
+        action: "download",
+        link: "https://onekey.so/download/",
+      },
+      {
+        action: "app_store",
+        link: "https://apps.apple.com/app/id1609559473",
+        platforms: ["ios"],
+      },
+      {
+        action: "google_play",
+        link: "https://play.google.com/store/apps/details?id=so.onekey.app.wallet",
+        platforms: ["android"],
+      },
+      {
+        action: "view_source",
+        link: "https://github.com/OneKeyHQ/app-monorepo",
+        platforms: ["windows", "mac", "linux", "ios", "android"],
+      },
+      {
+        action: "view_source",
+        link: "https://github.com/OneKeyHQ/firmware-pro",
+        platforms: ["hardware"],
+      },
+      {
+        action: "view_source",
+        link: "https://github.com/OneKeyHQ/firmware-classic1s",
+        platforms: ["hardware"],
+      },
+    ],
+  }),
+  defineWallet({
     id: "kasware",
     title: "KasWare Wallet",
     icon: "/hodl/wallets/kasware/icon.svg",

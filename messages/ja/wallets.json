@@ -24,6 +24,10 @@
     "summary": "Ledger Walletアプリと組み合わせて使うKaspa用ハードウェアウォレット。",
     "compatibilityNote": "対応するスマートフォンやパソコンはハードウェアのモデルによって異なります。"
   },
+  "onekey": {
+    "summary": "OneKeyアプリと組み合わせて使うKaspa用ハードウェアウォレット。",
+    "compatibilityNote": "対応するスマートフォンやパソコンはハードウェアのモデルによって異なります。"
+  },
   "tangem-wallet": {
     "summary": "Tangem Wallet は、Kaspa と14,000種類以上のデジタル資産に対応する、安全なセルフカストディ型ハードウェアウォレットです。シードフレーズは不要です。"
   }

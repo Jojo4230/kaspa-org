@@ -24,6 +24,10 @@
     "summary": "Hardware-Wallets für Kaspa mit der Ledger Wallet App.",
     "compatibilityNote": "Die Kompatibilität mit Smartphones und Computern hängt vom Hardware-Modell ab."
   },
+  "onekey": {
+    "summary": "Hardware-Wallets für Kaspa mit der OneKey-App.",
+    "compatibilityNote": "Die Kompatibilität mit Smartphones und Computern hängt vom Hardware-Modell ab."
+  },
   "tangem-wallet": {
     "summary": "Tangem Wallet ist eine sichere selbstverwahrte Hardware-Wallet für Kaspa und mehr als 14.000 digitale Vermögenswerte. Keine Seed-Phrase erforderlich."
   }
