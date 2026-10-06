@@ -33,8 +33,7 @@ const walletRecords = [
     title: "SafePal",
     icon: "/hodl/wallets/safepal/icon.svg",
     user: "beginner",
-    summary:
-      "Self-custodial hardware wallets for Kaspa with the SafePal mobile app.",
+    summary: "Hardware wallets for Kaspa with the SafePal mobile app.",
     compatibility: {
       note: "Kaspa requires X1 or an EAL6+ S1/S1 Pro, paired with the iOS or Android app. Older S1/S1 Pro devices are unsupported.",
       link: "https://www.safepal.com/en/coin/lists",
@@ -75,7 +74,6 @@ const walletRecords = [
       {
         action: "download",
         link: "https://www.safepal.com/en/download",
-        platforms: ["android"],
       },
       {
         action: "view_source",
@@ -114,7 +112,7 @@ const walletRecords = [
     features: ["hardware_wallet"],
     check: {
       control: "good",
-      validation: "acceptable",
+      validation: "caution",
       transparency: "caution",
       fees: "good",
     },
